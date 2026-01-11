@@ -17,6 +17,7 @@ function startMotionTracking()
         ge('yOut').textContent = y.toFixed(2);
         ge('zOut').textContent = z.toFixed(2);
 
+        /*
         // dynamic bg Color (visual feedback)
         // we multiply by 15 to make the color change noticeable
         let r = Math.floor(Math.abs(x) * 15);
@@ -24,6 +25,7 @@ function startMotionTracking()
         let b = Math.floor(Math.abs(z) * 5);
         
         document.body.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+        */
     });
 }
 
