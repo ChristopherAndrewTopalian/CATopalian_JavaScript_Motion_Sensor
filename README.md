@@ -5,6 +5,10 @@ A JavaScript application that senses motion on Cell phones and Tablets that have
 
 ---
 
+Use App: https://christopherandrewtopalian.github.io/CATopalian_JavaScript_Motion_Sensor/CATopalian_JavaScript_Motion_Sensor.html
+
+---
+
 ### How to Download this App
 1. Click the green Code Button on this github page
 2. Choose Download ZIP
