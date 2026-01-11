@@ -18,9 +18,9 @@ h1
 
 .axisLabel
 {
-    color: rgb(150, 150, 150);
-    font-size: 14px;
     margin-top: 20px;
+    font-size: 14px;
+    color: rgb(150, 150, 150);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
