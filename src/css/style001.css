@@ -16,7 +16,7 @@ h1
     color: rgb(255, 255, 255);
 }
 
-.axis-label
+.axisLabel
 {
     color: rgb(150, 150, 150);
     font-size: 14px;
@@ -25,13 +25,13 @@ h1
     letter-spacing: 1px;
 }
 
-.value-box
+.valueBox
 {
-    font-size: 40px;
-    font-family: monospace;
-    color: rgb(0, 255, 255);
     margin-bottom: 10px;
+    font-size: 40px;
+    font-family: Arial;
     font-weight: bold;
+    color: rgb(0, 255, 255);
 }
 
 button

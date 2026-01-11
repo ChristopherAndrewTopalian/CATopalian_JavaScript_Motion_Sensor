@@ -11,12 +11,12 @@ function makeInterface()
     // X Axis Display
     let xLabel = ce('div');
     xLabel.textContent = "X - Side Tilt";
-    xLabel.className = 'axis-label';
+    xLabel.className = 'axisLabel';
     ba(xLabel);
 
     let xOut = ce('div');
     xOut.id = 'xOut';
-    xOut.className = 'value-box';
+    xOut.className = 'valueBox';
     xOut.textContent = '0.00';
     ba(xOut);
 
@@ -25,12 +25,12 @@ function makeInterface()
     // Y Axis Display
     let yLabel = ce('div');
     yLabel.textContent = "Y - Front Tilt";
-    yLabel.className = 'axis-label';
+    yLabel.className = 'axisLabel';
     ba(yLabel);
 
     let yOut = ce('div');
     yOut.id = 'yOut';
-    yOut.className = 'value-box';
+    yOut.className = 'valueBox';
     yOut.textContent = '0.00';
     ba(yOut);
 
@@ -39,12 +39,12 @@ function makeInterface()
     // Z Axis Display
     let zLabel = ce('div');
     zLabel.textContent = "Z - Gravity";
-    zLabel.className = 'axis-label';
+    zLabel.className = 'axisLabel';
     ba(zLabel);
 
     let zOut = ce('div');
     zOut.id = 'zOut';
-    zOut.className = 'value-box';
+    zOut.className = 'valueBox';
     zOut.textContent = '0.00';
     ba(zOut);
 
