@@ -7,17 +7,12 @@ function makeTitleOfApp()
     theTitle.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Motion_Sensor';
     theTitle.target = '_blank';
     theTitle.textContent = 'CATopalian JavaScript Motion Sensor';
-    theTitle.style.position = 'absolute';
-    theTitle.style.right = 7 + 'px';
-    theTitle.style.top = 5 + 'px';
     theTitle.style.fontSize = '15px';
     theTitle.style.fontWeight = 'bold';
-    theTitle.style.textAlign = 'right';
-    theTitle.style.lineHeight = 15 + 'px';
     theTitle.style.textDecoration = 'none';
     theTitle.style.fontFamily = 'Arial';
     theTitle.style.color = 'rgb(130, 130, 130)';
-    ba(theTitle);
+    return theTitle;
 }
 
 //----//

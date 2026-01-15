@@ -2,9 +2,18 @@
 
 function makeInterface()
 {
+    let mainDiv = ce('div');
+    ba(mainDiv);
+
+    //-//
+
+    mainDiv.append(makeTitleOfApp());
+
+    //-//
+
     let mainTitle = ce('h1');
     mainTitle.textContent = "Motion Tracking";
-    ba(mainTitle);
+    mainDiv.append(mainTitle);
 
     //-//
 
@@ -12,13 +21,13 @@ function makeInterface()
     let xLabel = ce('div');
     xLabel.textContent = "X - Side Tilt";
     xLabel.className = 'axisLabel';
-    ba(xLabel);
+    mainDiv.append(xLabel);
 
     let xOut = ce('div');
     xOut.id = 'xOut';
     xOut.className = 'valueBox';
     xOut.textContent = '0.00';
-    ba(xOut);
+    mainDiv.append(xOut);
 
     //-//
 
@@ -26,13 +35,13 @@ function makeInterface()
     let yLabel = ce('div');
     yLabel.textContent = "Y - Front Tilt";
     yLabel.className = 'axisLabel';
-    ba(yLabel);
+    mainDiv.append(yLabel);
 
     let yOut = ce('div');
     yOut.id = 'yOut';
     yOut.className = 'valueBox';
     yOut.textContent = '0.00';
-    ba(yOut);
+    mainDiv.append(yOut);
 
     //-//
 
@@ -40,13 +49,13 @@ function makeInterface()
     let zLabel = ce('div');
     zLabel.textContent = "Z - Gravity";
     zLabel.className = 'axisLabel';
-    ba(zLabel);
+    mainDiv.append(zLabel);
 
     let zOut = ce('div');
     zOut.id = 'zOut';
     zOut.className = 'valueBox';
     zOut.textContent = '0.00';
-    ba(zOut);
+    mainDiv.append(zOut);
 
     //-//
 
@@ -58,7 +67,7 @@ function makeInterface()
     {
         requestMotionPermission();
     };
-    ba(startBtn);
+    mainDiv.append(startBtn);
 }
 
 //----//
